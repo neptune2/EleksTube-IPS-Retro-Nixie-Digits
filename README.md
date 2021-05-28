@@ -14,7 +14,7 @@ All extraction and conversion steps were done in Linux using the standard tools:
 
 To extract the contents of the retro.h file, follow these steps:
 
-backup the firmware from your Elekstube IPS Clock
+Backup the firmware from your Elekstube IPS Clock
 ```cpp
 esptool.py --baud 115200 --port [COM port] read_flash 0x0 0x0400000 my_fw-backup-4M.bin
 ```
