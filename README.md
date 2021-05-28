@@ -1,5 +1,5 @@
 # Extract retro digits from EleksTube IPS Clock Firmware
-The retro nixie digits in the Elekstube IPS clock, can be extracted from the firmware binary of your clock.
+The retro nixie digits in the Elekstube IPS clock, can be extracted from the firmware binary of your clock using the instructions below.
 
 They can be displayed on any ESP32 that has a 135x240 IPS LCD display (and probably others).
 The ESP32 arduino code has been run on the clock as well as the TTGO T-display module. 
