@@ -33,7 +33,8 @@ Create a C Header file from the binary data
 xxd -i -a retro.bin >retro.h
 ```
 
-Finally, edit the retro.h file and replace "unsigned char" with "static const uint8_t"
+Finally, edit the retro.h file created with xxd and replace "unsigned char" with "static const uint8_t". 
+Replace the retro.h file included in this repo with the new file that contains the data.
 
 
 # Bonus digits
