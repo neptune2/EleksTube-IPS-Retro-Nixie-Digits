@@ -33,7 +33,7 @@ Finally, edit the retro.h file and replace "unsigned char" with "static const ui
 
 
 # Bonus
-There are an additional additional digits you can extract.
+There are additional digits you can extract.
 
 Punk digits:
 ```cpp
