@@ -25,7 +25,7 @@ esptool.py --baud 115200 --port [COM port] read_flash 0x0 0x0400000 my_fw-backup
 
 Extract the binary data containing the retro digits 9-0
 ```cpp
-dd if=my_fw-backup-4M.bin of=retro.bin skip=$((0x15d9a8-10*64800)) count=$((270*2640)) iflag=skip_bytes,count_bytes
+dd if=my_fw-backup-4M.bin of=retro.bin skip=$((0x15d9a8-9*64800)) count=$((270*2400)) iflag=skip_bytes,count_bytes
 ```
 
 Create a C Header file from the binary data
